@@ -1,0 +1,33 @@
+h1{
+    color: blueviolet;  
+}
+
+h2{
+    color: chocolate;
+    text-decoration: underline;
+}
+
+h3{
+    color: darkblue;
+    font-style: italic;
+}
+
+table{
+    width: 700px;
+}
+
+th{
+    background-color: coral;
+}
+
+td{
+    background-color: antiquewhite;
+}
+
+td:hover{
+    background-color: bisque;
+}
+
+a:hover{
+    color: aquamarine;
+}
