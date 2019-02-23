@@ -1,33 +1,38 @@
-h1{
-    color: blueviolet;  
-}
+/*
+
+    seletor{
+        propriedade:valor;
+    }
+
+*/
+/*ctrl + e -> cor do texto. Digite uma cor qualquer e mude com esse atalho */
+h1{color:#67484f;}
 
 h2{
-    color: chocolate;
-    text-decoration: underline;
+    color: #d37508; 
+    text-decoration: underline; /*add sublinhado*/
 }
 
 h3{
-    color: darkblue;
-    font-style: italic;
+    color: #416e95;
+    font-style: italic; /*add italico*/
 }
 
-table{
-    width: 700px;
+table{width: 700px;}
+tr{background-color: #f8cd9b;}
+
+tr:hover{ /*ao passar o mouse no tr*/
+    background-color: #EEE;   
+    color: #0e3f6a;
 }
 
 th{
-    background-color: coral;
+    background-color: #67484f;
+    color: #FFF;
 }
 
-td{
-    background-color: antiquewhite;
-}
-
-td:hover{
-    background-color: bisque;
-}
-
-a:hover{
-    color: aquamarine;
-}
+a{color: #b72020;}
+a:hover{color: #000;}
+ol{list-style-type: upper-roman;}
+ul{list-style-type:square;}
+li:hover{text-decoration: underline;}
